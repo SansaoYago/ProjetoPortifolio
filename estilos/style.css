@@ -29,6 +29,9 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #menu ul {
@@ -43,7 +46,7 @@ header {
   font-weight: 600;
   padding: 12px 15px;
   border-radius: 5px;
-  transition: background 250ms, color 350ms; /*Preferi deixar o atraso na cor do texto*/
+  transition: background 250ms color 250ms; /*Preferi deixar o atraso na cor do texto*/
 }
 
 #menu a:hover {
@@ -266,3 +269,4 @@ footer a:hover {
     max-height: 200px;
   }
 }
+
